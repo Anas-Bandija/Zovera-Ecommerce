@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url(../../assets/fonts/Satoshi-Light.otf);
+}
+
+
+@font-face {
+    font-family: 'Integral-CF';
+    src: url(../../assets/fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+.upperSide {
+    background: #000;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upperSideText {
+    font-family: 'Satoshi-Light';
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.upperSidespan {
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.crossIcon {
+    color: #fff;
+    cursor: pointer;
+}
+
+.lowerSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo > h1 {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Integral-CF';
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.li {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Satoshi-Light';
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background: #F0F0F0;
+    padding: 12px 16px;
+    width: 70%;
+    border-radius: 62px;
+    gap:24px;
+}
+
+.search {
+    background-color: #F0F0F0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: 'Satoshi-Light';
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+}
+
+.icons > span {
+    cursor: pointer;
+}
+
+.bars {
+    display:  flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+    height: 24px;
+    width: 24px;
+}
+
+.bar {
+    background-color: #000;
+    height: 3px;
+    width: 18px;
+    border-radius: 2px;
+}
+
+
+@media (min-width:920px) {
+    .mediaSearch {
+        display: none;
+    }
+    .bars {
+        display: none;
+    }
+}
+
+@media (max-width:1180px) {
+    .lowerSide {
+        padding: 0px 30px;
+    }
+}
+
+
+@media (max-width:920px) {
+    .lowerSide {
+        padding: 0px 30px;
+    }
+    .container {
+        align-items: flex-end;
+    }
+    .searchBar {
+        display: none;
+    }
+    .list {
+        display: none;
+    }
+    .main {
+        justify-content: flex-end;
+    }
+    .logo > h1 {
+        font-size: 25.2px;
+    }
+}
+
+@media (max-width:480px) {
+    .lowerSide {
+        padding: 0px 10px;
+    }
+
+    .upperSideText {
+        font-size: 12px;
+    }
+
+    .crossIcon {
+        display: none;
+    }
+
+    .emptyContainer {
+        display: none;
+    }
+}

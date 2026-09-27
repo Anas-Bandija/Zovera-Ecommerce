@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Satoshi-bold';
+    src: url(../../assets/fonts/Satoshi-Bold.otf);
+}
+
+
+.parentCon {
+  background-image: url("../../assets/images/cover.svg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.textSection {
+    width: 50%;
+    padding: 54px;
+}
+
+.textSection > h1 {
+    font-size: 64px;
+    font-family: 'Integral-CF';
+    line-height: 64px;
+}
+
+.textSection > p {
+    font-size: 16px;
+    font-family: 'Satoshi-Light';
+    color: #0000006c;
+}
+
+.btn {
+    background-color: #000;
+    padding: 16px 54px;
+    border: none;
+    border-radius: 62px;
+    color: #fff;
+    font-family: 'Satoshi-Light';
+    cursor: pointer;
+}
+
+.categoriesSection {
+    display: flex;
+    gap: 32px;
+    padding: 40px 0px;
+}
+
+
+.categoriHeading {
+    font-size: 40px;
+    font-family: 'Satoshi-bold';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #0000001f;
+    padding: 0px 15px;
+}
+
+.categoriHeading > span {
+    font-size: 16px;
+    font-family: 'Satoshi-Light';
+    color: #0000006c;
+}
+
+
+.imageSection {
+    width: 50%;
+}

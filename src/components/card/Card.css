@@ -1,0 +1,27 @@
+
+.starContainer {
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
+
+.cardText h3,
+.cardText h2,
+.cardText p {
+  margin: 5px;
+}
+
+.cardText > h3 {
+    font-family: 'Satoshi-bold';
+    font-size: 20px;
+}
+
+.cardText > h2 {
+    font-family: 'Satoshi-bold';
+    font-family: 24px;
+}
+
+.cardText p {
+    font-family: 'Satoshi-Light';
+    color: #0000008f;
+}

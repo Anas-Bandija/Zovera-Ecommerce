@@ -4,6 +4,7 @@ import Main from './components/main/Main.jsx'
 import Brands from './components/Brands/Brands.jsx'
 import NewArrivals from './components/NewArrivals/NewArrivals.jsx'
 import TopSelling from './components/TopSelling/TopSelling.jsx'
+import DressStyles from './components/DressStyles/DressStyles.jsx'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Brands />
       <NewArrivals />
       <TopSelling />
+      <DressStyles />
     </div>
   )
 }
